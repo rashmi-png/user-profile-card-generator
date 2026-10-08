@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Card Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>User Profile Card Generator</h1>
+
+    <form action="/profile" method="POST">
+
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <br><br>
+
+        <label>Bio:</label>
+        <textarea name="bio" required></textarea>
+        <br><br>
+
+        <label>Skills:</label>
+        <input type="text" name="skills" placeholder="Python, Java, HTML">
+        <br><br>
+
+        <label>GitHub:</label>
+        <input type="text" name="github">
+        <br><br>
+
+        <label>LinkedIn:</label>
+        <input type="text" name="linkedin">
+        <br><br>
+
+        <button type="submit">Generate Profile Card</button>
+        <br><br>
+<a href="/profiles">View Saved Profiles</a>
+
+    </form>
+
+</body>
+</html>
