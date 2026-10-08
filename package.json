@@ -1,11 +1,14 @@
 {
   "name": "user-profile-card-generator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "User Profile Card Generator",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },"engines":{node:"20.18.0"},
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "20.18.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
